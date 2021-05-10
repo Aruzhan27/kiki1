@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: 700; }
+
+body { font-family: 'Roboto', sans-serif; }
+
+.card .wrapper .carousel-item,
+.card video {
+    width: 100%;
+    height: 200px;
+}
+.card img{
+    height: 300px;
+    width: 300px;
+    margin-left: 150px;
+}
+
+.card .wrapper .carousel-item img {
+    display: block;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-wrapper {
+    width: 100vw;
+    height: 60vh;
+    background-image: url('https://source.unsplash.com/3KGF9R_0oHs');
+    background-size: cover;
+}
+
+.banner-wrapper > .container { height: 100%; }
+
+.banner-wrapper .row { height: 100%; }
+
+.banner-wrapper .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.banner-wrapper h1,
+.banner-wrapper p { color: #FFFFFF; }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-bottom: 0;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.footer { padding: 10px 0; }
+
+.footer p { margin-bottom: 0; }
